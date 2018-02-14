@@ -1,0 +1,48 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500');
+
+.newLogo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 34px;
+    color: white;
+}
+
+.main {
+    .welcome-message {
+        h2 span {
+            font-weight: 200;
+        }
+
+        h3 span {
+            font-weight: 200;
+        }
+    }
+}
+
+.features {
+    color: #585757;
+
+    i.fa {
+        color: #b9b9b9;
+        margin-bottom: 24px;
+    }    
+}
+
+
+@media (min-width: 992px) {
+    .features {
+        .leftCol {
+            border-right: 1px solid #d6d5d5;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .welcome-message {
+        padding-top: 0;
+
+        h3 {
+            font-size: 17px;
+        }
+    }
+}
